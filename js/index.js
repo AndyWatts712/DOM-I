@@ -67,3 +67,37 @@ console.log(contactInfo);
 
 const footer = document.querySelector("footer p");
 console.log(footer);
+
+//Updating content
+menu[0].textContent = siteContent["nav"]["nav-item-1"];
+menu[1].textContent = siteContent["nav"]["nav-item-2"];
+menu[2].textContent = siteContent["nav"]["nav-item-3"];
+menu[3].textContent = siteContent["nav"]["nav-item-4"];
+menu[4].textContent = siteContent["nav"]["nav-item-5"];
+menu[5].textContent = siteContent["nav"]["nav-item-6"];
+
+title.textContent = siteContent.cta.h1;
+
+ctaImg.src = siteContent.cta["img-src"];
+
+smallTitles[0].textContent = siteContent["main-content"]["services-h4"];
+smallTitles[1].textContent = siteContent["main-content"]["product-h4"];
+smallTitles[2].textContent = siteContent["main-content"]["vision-h4"];
+smallTitles[3].textContent = siteContent["main-content"]["features-h4"];
+smallTitles[4].textContent = siteContent["main-content"]["about-h4"];
+
+text[0].textContent = siteContent["main-content"]["services-content"];
+text[1].textContent = siteContent["main-content"]["product-content"];
+text[2].textContent = siteContent["main-content"]["vision-content"];
+text[3].textContent = siteContent["main-content"]["features-content"];
+text[4].textContent = siteContent["main-content"]["about-content"];
+
+middleImg.src = siteContent["main-content"]["middle-img-src"];
+
+contactHeader.textContent = siteContent.contact["contact-h4"];
+
+contactInfo[0].textContent = siteContent.contact.address;
+contactInfo[1].textContent = siteContent.contact.phone;
+contactInfo[2].textContent = siteContent.contact.email;
+
+footer.textContent = siteContent.footer.copyright;
